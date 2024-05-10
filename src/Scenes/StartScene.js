@@ -22,7 +22,7 @@ class StartScene extends Phaser.Scene {
           width: 1000 
       }
     }).setOrigin(0.5);
-    document.getElementById('description').innerHTML = '<h2>Gallery Shooter</h2><br>A: left // D: right // Space: fire/emit(max 3 bullets at a time) // S: Restart Game'
+    document.getElementById('description').innerHTML = '<h2>Gallery Shooter</h2><br>A: left // D: right // Space: fire/emit(max 3 bullets at a time) // S: Start Game'
   }
 
   update() {
